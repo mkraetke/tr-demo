@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:param-set xmlns:c="http://www.w3.org/ns/xproc-step">
+  <c:param name="cascade-path" value="."/>
+  <c:param name="exclude-filter" value="'(select-phase|schematron|css|htmlreports|jats2html|js|sch|xpl|xsl)'"/><!-- expects a regex -->
+  <c:param name="content-base-uri" value="http://this.transpect.io/content-repo/"/>
+  <c:param name="paths-xsl-uri" value="http://this.transpect.io/a9s/common/xsl/paths.xsl"/>
+  <c:param name="clade-role" value="global"/>
+</c:param-set>
